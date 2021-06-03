@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>Article Page</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Fairytale</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Αρχική</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Για μένα</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Επικοινωνία</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quotes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="main">
+            <div class="container" id="hero-container">
+                <h3 class="hero-text">Ελπίζω να αγαπήσεις το κείμενο όπως <br>το αγάπησα και εγώ.</h3>
+                <p>Βίκυ Μπάλλου</p>
+            </div>
+    </section>
+
+    <section id="article">
+        <div class="container-fluid" id="container-switch">
+            <input type="checkbox" class="checkbox" id="chk"/>
+            <label class="label" for="chk">
+                <i class="material-icons" id="sun">light_mode</i>
+                <i class="material-icons" id="moon">dark_mode</i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <div class="container-fluid">
+            <div class="row f-flex justify-content-center">
+                <div class="col-md-3 col-sm-8" id="article-img">
+                    <img src="images/article_img_1.jpg">
+                </div>
+                <div class="col-md-7 col-sm-8" id="article-container">
+                    <h2>''Σ’ αγαπάω, μπαμπά. Κι εσένα το ίδιο, μαμά.'' </h2>
+                    <hr id="line-top">
+                    <p>
+                        Πρώτη μέρα χωρίς βοηθητικές.
+                        Το πέλμα μου αγγίζει το πετάλι δειλά.
+                        Μια άτσαλη στραβοτιμονιά – άλλη μια
+                        και δυο γόνατα ματωμένα
+                        ριγμένα παραπονιάρικα στο κράτημά σου.
+                        Κι απόψε, πάλι δακρύζω στην αγκαλιά σου,
+                        γιατί με πλήγωσε, μπαμπά.
+                        Πονάω, μπαμπά.
+                        Όλα αλλάζουν, μαμά· ούτε εγώ δεν μένω ίδια.
+                        Τα φτερά μου μεγαλώνουν απότομα
+                        και με καλούνε να πετάξω
+                        -πού περιθώρια για αντιρρήσεις;
+                        Μα όπου κι αν πηγαίνω, πάντα εδώ γυρνώ, μαμά.
+                        Να μοιραστώ τα πιο σημαντικά μου, 
+                        να ξεμπλέξω τα πιο περίπλοκά μου·
+                        κι αυτό καλείται «τύχη», μαμά.
+                        Όλα φαντάζουν αλλιώτικα, μπαμπά.
+                        Ο κόσμος δεν είναι σαν το παραμύθι
+                        που μου διάβαζες τις νύχτες,
+                        κι εγώ δεν είμαι πια μικρή για να φοβάμαι.
+                        Όμως στο κάθε αμφίβολο βήμα μου,
+                        νιώθω το πάτημά σου πλάι μου
+                        και μπορώ να ξορκίσω τους δράκους, μπαμπά·
+                        κι αυτό είναι ευλογία, μπαμπά.
+                        Μ’ αρέσει που παραμένω «η μικρή σου», μπαμπά.
+                        Παραπονιέμαι, μα μ’ αρέσει που με φροντίζεις, μαμά.
+                        Κατά βάθος, θέλω για κάποιον να είμαι πάντα παιδί,
+                        κι ας φέρω τον τίτλο του «μεγάλου»·
+                        είναι βαρύς, ο άτιμος - και δύσκολος!
+                        Μεγαλώνω – μα σ’ έχω μέσα μου, μπαμπά.
+                        Σε κάθε σκαλοπάτι, σφίγγω το φυλαχτό σου.
+                        Μεγαλώνω – μα δεν σε ξεχνώ, μαμά.
+                        Μάλιστα, κάτι ώρες νομίζω πώς σου μοιάζω.
+                        Πρώτη μέρα στο σχολείο 
+                        Το βλέμμα μου χαϊδεύει το χώρο διστακτικά. 
+                        Όλα αβέβαια κι επισφαλή – ένα προς ένα
+                        και δυο μάτια βουρκωμένα
+                        κρατημένα δυνατά απ’ τη μορφή σου.
+                        Και απόψε, ξανά ελπίζω στο κοίταγμά σου,
+                        γιατί σ’ αγαπώ πολύ, μαμά·
+                        κι εσένα το ίδιο, μπαμπά.
+                        ''Σ’ αγαπάω, μπαμπά. Κι εσένα το ίδιο, μαμά.''
+                    </p>
+                    <hr id="line-bottom">
+                    <div class="article-details">
+                        <ul>
+                            <li>
+                                <img src="images/author.jpg">
+                                <span>Από την Βίκυ Μπάλλου</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-left">
+            <h1>Fairytale</h1>
+            <p>A blog is a type of website where the content is presented in reverse chronological order (newer content appear first). Blog content is often referred to as entries or “blog posts”.</p>
+
+        </div>
+        <ul class="footer-right">
+            <li class="footer-sections">
+                <h2>Categories</h2>
+                <ul class="box">
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Fantasy</a></li>
+                    <li><a href="#">Comedy</a></li>
+                    <li><a href="#">Romance</a></li>
+                </ul>
+            </li>
+            <li class="footer-sections">
+                <h2>Sections</h2>
+                <ul class="box">
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <li class="footer-sections">
+                <h2>Follow Me</h2>
+                <ul class="box" id="footer-socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer-bottom">
+            <a>All Rights Reserved &copy; Fairytale 2020</a>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
